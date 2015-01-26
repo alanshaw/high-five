@@ -1,0 +1,29 @@
+{
+  "name": "high-five",
+  "version": "0.0.0",
+  "description": "High Fives are mandatory at NodeSchool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "high",
+    "five",
+    "^5",
+    "nodeschool",
+    "exercise",
+    "workshopper",
+    "workshop",
+    "adventure",
+    "learning",
+    "learn",
+    "educate"
+  ],
+  "author": "Alan Shaw",
+  "license": "ISC",
+  "bin": {
+    "high-five": "bin/high-five.js",
+    "highfive": "bin/high-five.js"
+  },
+  "dependencies": {}
+}
