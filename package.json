@@ -4,7 +4,7 @@
   "description": "High Fives are mandatory at NodeSchool",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tape test/*.js"
   },
   "keywords": [
     "high",
@@ -25,5 +25,20 @@
     "high-five": "bin/high-five.js",
     "highfive": "bin/high-five.js"
   },
-  "dependencies": {}
+  "dependencies": {
+    "minimist": "^1.1.0",
+    "rc": "^0.5.5",
+    "request": "^2.51.0"
+  },
+  "devDependencies": {
+    "tape": "^3.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alanshaw/high-five.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alanshaw/high-five/issues"
+  },
+  "homepage": "https://github.com/alanshaw/high-five"
 }

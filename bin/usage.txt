@@ -1,0 +1,8 @@
+Register your last achievement with the cloud.
+
+Usage: high-five [options...]
+
+Options:
+  -v, --version    Print version number and exit.
+  -r, --registry   The registry URL.
+                   [default: "http://high-five-registry.nodeschool.io/"]
